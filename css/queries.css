@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1200px){
+	.cover-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	.row { padding: 0 2%; }
+}
+
+/* Devices 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+   .section-content {
+      padding: 3rem 0;
+   }
+
+   h2 {font-size: 180%;}
+
+   h3 {
+   	margin-bottom: 0.2rem;
+   }
+
+   .devicons {
+   	font-size: 1.2rem;
+   }
+
+   .about-text {
+   	padding: 0 1rem;
+   	line-height: 145%;
+   	font-size: 0.9rem;
+   	word-spacing: 2px;
+   }
+
+	.portrait {
+		margin: 0 auto;
+	}
+
+	.container,
+   .container-2,
+   .footer-columns {
+   	grid-template-columns: 1fr;
+      grid-gap: 1em;
+   }
+
+   .project-box {
+		margin: 0 auto;
+   }
+
+   .project-text-box p {
+   	margin-bottom: 15px;
+   	font-size: 80%;
+   	line-height: 145%;
+   }
+
+   .btn:link,
+   .btn:visited {
+      font-size: 80%;
+      padding: 0.3rem;
+   }
+
+   .btn:last-of-type {
+   	margin-left: 5px;
+   }
+
+   #fixed {
+      height: 100px;
+   }
+
+   #contact h3 {
+      margin-bottom: 1rem;
+   }
+
+   .contact-info li:first-of-type {
+   	margin-bottom: 10px;
+   }
+
+   footer {
+      font-size: 80%;
+   }
+
+   .foot-links a:link,
+   .foot-links a:visited {
+   	font-size: 27px;
+   }
+
+}
+
+/* Devices 481px to 767px */
+@media only screen and (max-width: 767px){
+   /* HAMBURGER MENU STARTS HERE  */
+
+   .row,
+	.cover-text-box { padding: 0 4%; }
+
+   body {
+      font-size: 17px;
+   }
+
+   .section-content {
+      padding: 1.5rem 0;
+   }
+
+
+   .about-text {
+   	font-size: 0.8rem;
+   }
+
+   .portrait {
+      display: grid;
+      justify-content: center;
+   }
+
+   .portrait img {
+   	height: 200px;
+   	width: 200px;
+   	border-radius: 50%;
+   }
+
+   .project-box {
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .project-text-box h3 {
+      font-size: 110%;
+   }
+
+   .project-text-box p {
+   	margin-bottom: 15px;
+   	font-size: 90%;
+   }
+
+   .btn:last-of-type {
+   	margin-left: 15px;
+   }
+
+   .btn:link,
+   .btn:visited {
+      font-size: 90%;
+      padding: 0.3rem;
+   }
+
+   #contact h3 {
+      text-align: center;
+   }
+
+   .form {
+      display: grid;
+      justify-content: center;
+   }
+
+   .footer-center {
+      align-self: stretch;
+      justify-content: center;
+   }
+
+   .foot-links a:link,
+   .foot-links a:visited {
+   	font-size: 20px;
+   }
+
+}
+
+/* SMALL PHONES */
+@media only screen and (max-width: 480px){
+		h1 {
+         font-size: 300%;
+      }
+
+}
